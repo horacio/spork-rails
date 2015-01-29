@@ -1,9 +1,16 @@
+GIT
+  remote: git@github.com:sporkrb/spork.git
+  revision: 224df492657e617a0c93c0319e78f0eefee5b636
+  ref: master
+  specs:
+    spork (1.0.0rc4)
+
 PATH
   remote: ./
   specs:
     spork-rails (4.0.0)
       rails (>= 3.0.0, < 5)
-      spork (>= 1.0rc0)
+      spork
 
 GEM
   remote: https://rubygems.org/
@@ -85,7 +92,6 @@ GEM
     rspec-expectations (2.13.0)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.13.1)
-    spork (1.0.0rc4)
     sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -112,5 +118,5 @@ DEPENDENCIES
   debugger
   rake
   rspec (~> 2.13.0)
-  spork (>= 1.0rc0)
+  spork!
   spork-rails!
